@@ -130,7 +130,7 @@ const Tasks = () => {
         <DragDropContext
             onDragEnd={(result) => onDragEnd(result, columns, setColumns)}
         >
-            <h1>DataSeer Challenge</h1>
+            <h1 style={{color:"#007bff"}}>DataSeer Challenge</h1>
             <Container>
                 <TaskColumnStyles>
                     {Object.entries(columns).map(([columnId, column], index) => {
