@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styled from '@emotion/styled';
-import { columnsFromBackend } from './DummyData';
+import { columnsFromBackend } from './Data';
 import { DragDropContext, Droppable } from 'react-beautiful-dnd';
 import TaskCard from './TaskCard';
 import TaskForm from './TaskForm';
